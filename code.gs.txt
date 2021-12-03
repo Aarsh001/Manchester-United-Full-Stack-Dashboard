@@ -1,0 +1,56 @@
+function getData() { 
+  var sheetName = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("PL Ovr stats"); 
+  var cellFunction ='=IMPORTHTML("https://fbref.com/en/squads/19538871/2021-2022/s11160/Manchester-United-Stats-Premier-League#stats_standard_11160","Table",1)';
+
+    sheetName.getRange('A1').setValue(cellFunction); 
+  
+  
+  sheetName = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Fixtures PL"); 
+  cellFunction = '=IMPORTHTML("https://fbref.com/en/squads/19538871/2021-2022/s11160/Manchester-United-Stats-Premier-League#matchlogs_for","Table",2)';
+
+    sheetName.getRange('A1').setValue(cellFunction); 
+
+  sheetName = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("GK"); 
+  cellFunction = '=IMPORTHTML("https://fbref.com/en/squads/19538871/2021-2022/s11160/Manchester-United-Stats-Premier-League#stats_keeper_11160","Table",3)';
+
+    sheetName.getRange('A1').setValue(cellFunction); 
+
+  sheetName = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Shooting"); 
+  cellFunction = '=IMPORTHTML("https://fbref.com/en/squads/19538871/2021-2022/s11160/Manchester-United-Stats-Premier-League#stats_shooting_11160","Table",5)';
+
+    sheetName.getRange('A1').setValue(cellFunction); 
+
+  sheetName = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Passing"); 
+  cellFunction = '=IMPORTHTML("https://fbref.com/en/squads/19538871/2021-2022/s11160/Manchester-United-Stats-Premier-League#stats_passing_11160","Table",6)';
+
+    sheetName.getRange('A1').setValue(cellFunction); 
+
+  sheetName = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("pass type"); 
+  cellFunction = '=IMPORTHTML("https://fbref.com/en/squads/19538871/2021-2022/s11160/Manchester-United-Stats-Premier-League#stats_passing_types_11160::14","Table",7)';
+
+    sheetName.getRange('A1').setValue(cellFunction); 
+
+  sheetName = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("goal and shot creation"); 
+  cellFunction = '=IMPORTHTML("https://fbref.com/en/squads/19538871/2021-2022/s11160/Manchester-United-Stats-Premier-League#stats_gca_11160","Table",8)';
+
+    sheetName.getRange('A1').setValue(cellFunction); 
+
+  sheetName = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Defense"); 
+  cellFunction = '=IMPORTHTML("https://fbref.com/en/squads/19538871/2021-2022/s11160/Manchester-United-Stats-Premier-League#stats_defense_11160","Table",9)';
+
+    sheetName.getRange('A1').setValue(cellFunction); 
+
+  sheetName = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Posession"); 
+  cellFunction = '=IMPORTHTML("https://fbref.com/en/squads/19538871/2021-2022/s11160/Manchester-United-Stats-Premier-League#stats_possession_11160","Table",10)';
+
+    sheetName.getRange('A1').setValue(cellFunction); 
+
+  sheetName = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("playing time"); 
+  cellFunction = '=IMPORTHTML("https://fbref.com/en/squads/19538871/2021-2022/s11160/Manchester-United-Stats-Premier-League#stats_playing_time_11160","Table",11)';
+
+    sheetName.getRange('A1').setValue(cellFunction); 
+
+  sheetName = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Misc stats"); 
+  cellFunction = '=IMPORTHTML("https://fbref.com/en/squads/19538871/2021-2022/s11160/Manchester-United-Stats-Premier-League#stats_misc_11160","Table",12)';
+
+    sheetName.getRange('A1').setValue(cellFunction); 
