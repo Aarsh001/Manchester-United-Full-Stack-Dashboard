@@ -2,7 +2,9 @@
 ![image](https://user-images.githubusercontent.com/66909599/144561365-6c4b8871-5983-4c16-9c19-72afdce30563.png)
 
 Find the dataset here --> https://docs.google.com/spreadsheets/d/1SDQG3BouMN63AeMyzTV5Rxx7GqzjexujDOO-gC3UvWg/edit?usp=sharing
+
 The code for appscript has been attached in the code.gs text file.
+
 From Google Sheets got to -> Extensions -> AppScript.
 Input the code there.
 
